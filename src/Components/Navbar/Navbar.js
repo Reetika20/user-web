@@ -22,7 +22,7 @@ const Navbar = () => {
       <img src={logo} alt='Logo' className='logo' />
       <ul className='nav-links'>
         <li>
-          <Link to="home" smooth={true} duration={500} className='nav-link'>
+          <Link to="head" smooth={true} duration={500} className='nav-link'>
             Home
           </Link>
         </li>
@@ -32,7 +32,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="how-to-buy" smooth={true} duration={500} className='nav-link'>
+          <Link to="howtobuy" smooth={true} duration={500} className='nav-link'>
             How To Buy
           </Link>
         </li>

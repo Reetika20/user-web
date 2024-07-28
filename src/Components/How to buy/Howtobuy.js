@@ -17,6 +17,8 @@ const Howtobuy = () => {
             <p>Here step 4<br/>
             <img src={Head} alt=''/></p>
         </div>
+
+        <h2>--- Steps for buying --- </h2>
         <button className='btn dark-btn'>Click here to proceed</button>
         
         </div>
