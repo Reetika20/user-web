@@ -1,5 +1,5 @@
-import React from 'react'
-import './Head.css'
+import React from 'react';
+import './Head.css';
 import telegramIcon from '../../assets/telegram.png';
 import twitterIcon from '../../assets/twitter.png';
 import uniswapIcon from '../../assets/uniswap.png';
@@ -9,13 +9,11 @@ import coinmarketcapIcon from '../../assets/coinmarketcap.png';
 
 const Head = () => {
   return (
-    <div className='head conatiner'>
-        <div className='head-text'>
-            <h2>
-                Welcome to mybit
-            </h2>
-            <p>bitcoin is the new change</p>
-            <div className='links'>
+    <div className='head container'>
+      <div className='head-text'>
+        <h2>Welcome to mybit</h2>
+        <p>bitcoin is the new change</p>
+        <div className='links'>
           <a href='https://t.me/yourchannel' target='_blank' rel='noopener noreferrer'>
             <img src={telegramIcon} alt='Telegram' className='icon' />
           </a>
@@ -35,15 +33,14 @@ const Head = () => {
             <img src={coinmarketcapIcon} alt='CoinMarketCap' className='icon' />
           </a>
         </div>
-            
-            <p>
-                Contract:
-                ekihcfrygwnkercgfyekxfg
-            </p>
-            <p><button className='btn'>Buy On Uniswap</button> <button className='btn'>Community</button></p>
-        </div>
+        <p>Contract: ekihcfrygwnkercgfyekxfg</p>
+        <p>
+          <button className='btn'>Buy On Uniswap</button> 
+          <button className='btn'>Community</button>
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Head
+export default Head;

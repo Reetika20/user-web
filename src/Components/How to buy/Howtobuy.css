@@ -29,3 +29,8 @@
     color: aliceblue;
 
 }
+
+.btn:hover {
+    background-color: #5f5d5b;
+}
+   

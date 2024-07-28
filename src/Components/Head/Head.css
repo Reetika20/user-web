@@ -43,7 +43,21 @@
 
 .icon:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
-  }
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c9c5c0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ }
+  
+.btn:hover {
+    background-color: #5f5d5b;
+}
     
 /*
 .head {
